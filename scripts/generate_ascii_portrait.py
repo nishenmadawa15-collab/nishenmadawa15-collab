@@ -10,8 +10,9 @@ Pipeline:
 3. Map per-cell luminance to a density ramp of ASCII glyphs and a
    cyan -> white color ramp; cells outside the subject mask render as
    faint "code rain" glyphs or empty space instead of the portrait ramp.
-4. Emit the grid as monospace <text>/<tspan> runs inside an SVG, framed
-   as a terminal window (title bar, traffic-light dots, border, glow).
+4. Emit the grid as monospace <text>/<tspan> runs inside an SVG: a
+   rounded, softly glowing panel with a thin accent border (no terminal
+   window chrome) so it reads as a clean portrait, not a hacker mockup.
 
 Usage: python generate_ascii_portrait.py
 Reads:  ../nishen-profile.jpeg (relative to this script)
@@ -29,11 +30,10 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC_IMAGE = ROOT / "nishen-profile.jpeg"
 OUT_SVG = ROOT / "assets" / "nishen-ascii.svg"
 
-COLS = 92
-CELL_W = 4.6
-CELL_H = 9.2
-PADDING = 18
-TITLEBAR_H = 30
+COLS = 108
+CELL_W = 3.9
+CELL_H = 7.8
+PADDING = 16
 
 RAMP = ".'`,:;-~+=iltI?!*xnuvcz1XY0OQ#%$@"
 CODE_GLYPHS = "01{}<>/;:.="
@@ -162,7 +162,7 @@ def build():
 
     rng = random.Random(42)
     width_px = COLS * CELL_W + PADDING * 2
-    height_px = rows * CELL_H + PADDING * 2 + TITLEBAR_H
+    height_px = rows * CELL_H + PADDING * 2
 
     rows_svg = []
     for ry in range(rows):
@@ -176,12 +176,12 @@ def build():
                 ch = RAMP[idx]
                 color = ramp_color(t)
             else:
-                if rng.random() < 0.045:
+                if rng.random() < 0.02:
                     ch = rng.choice(CODE_GLYPHS)
-                    color = "#0e2f3f"
+                    color = "#0b2530"
                 else:
                     ch = " "
-                    color = "#0e2f3f"
+                    color = "#0b2530"
             if ch == " ":
                 if cur_chars and cur_chars[-1] != " ":
                     runs.append((cur_color, "".join(cur_chars)))
@@ -199,7 +199,7 @@ def build():
         if cur_chars:
             runs.append((cur_color, "".join(cur_chars)))
 
-        y = PADDING + TITLEBAR_H + ry * CELL_H + CELL_H * 0.82
+        y = PADDING + ry * CELL_H + CELL_H * 0.82
         tspans = "".join(
             f'<tspan fill="{color}">{escape_xml(chars)}</tspan>'
             for color, chars in runs
@@ -209,14 +209,14 @@ def build():
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width_px:.0f}" height="{height_px:.0f}"
      viewBox="0 0 {width_px:.0f} {height_px:.0f}" role="img"
-     aria-label="ASCII terminal-style portrait of Nishen Madava">
+     aria-label="ASCII-style portrait of Nishen Madava">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0a141f"/>
       <stop offset="1" stop-color="#060b12"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="0.6" result="b"/>
+      <feGaussianBlur stdDeviation="0.5" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
@@ -228,14 +228,7 @@ def build():
     </style>
   </defs>
 
-  <rect x="0" y="0" width="{width_px:.0f}" height="{height_px:.0f}" rx="14" fill="url(#bg)" stroke="#00ff88" stroke-opacity="0.35"/>
-
-  <rect x="0" y="0" width="{width_px:.0f}" height="{TITLEBAR_H}" rx="14" fill="#0d1b28"/>
-  <rect x="0" y="{TITLEBAR_H - 14}" width="{width_px:.0f}" height="14" fill="#0d1b28"/>
-  <circle cx="18" cy="{TITLEBAR_H/2:.0f}" r="5" fill="#ff5f56"/>
-  <circle cx="36" cy="{TITLEBAR_H/2:.0f}" r="5" fill="#ffbd2e"/>
-  <circle cx="54" cy="{TITLEBAR_H/2:.0f}" r="5" fill="#27c93f"/>
-  <text x="{width_px/2:.0f}" y="{TITLEBAR_H/2 + 4:.0f}" text-anchor="middle" fill="#5fd0c8" font-size="12" font-family="Consolas,monospace">nishen.ascii ~ portrait.sh</text>
+  <rect x="0.75" y="0.75" width="{width_px - 1.5:.1f}" height="{height_px - 1.5:.1f}" rx="16" fill="url(#bg)" stroke="#00ff88" stroke-opacity="0.3" stroke-width="1.5"/>
 
   <g filter="url(#glow)">
 {chr(10).join(rows_svg)}

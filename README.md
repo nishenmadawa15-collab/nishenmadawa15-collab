@@ -1,140 +1,51 @@
 <div align="center">
 
-# `NISHEN MADAVA`
+<img src="./assets/nishen-ascii.svg" width="190" alt="ASCII-style portrait of Nishen Madava, generated from his profile photo" />
 
-### Cybersecurity Enthusiast • Ethical Hacker • Web Developer • Designer
+# Nishen Madava
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=850&lines=Cybersecurity+Enthusiast;Ethical+Hacker;Web+Developer;Designer;CTF+%2F+KoTH+Player;Always+Learning.+Always+Building." alt="Typing animation: Cybersecurity Enthusiast, Ethical Hacker, Web Developer, Designer, CTF / KoTH Player, Always Learning. Always Building." />
+**Cybersecurity Enthusiast • Ethical Hacker • Web Developer**
 
-</div>
+Building secure systems, learning offensive security, and exploring CTF / KoTH challenges.
 
----
-
-## `> whoami`
-
-<table>
-<tr>
-<td width="260" align="center" valign="top">
-
-<img src="./assets/nishen-ascii.svg" width="250" alt="ASCII / terminal-art style portrait of Nishen Madava, generated from his profile photo" />
-
-</td>
-<td valign="top">
-
-```text
-nishen@github
-────────────────────────────────────────
-
-Name       : Nishen Madava
-University : SLTC
-
-Role       : Cybersecurity Enthusiast
-             Ethical Hacker
-             Web Developer
-             Designer
-
-Focus      : Cybersecurity
-
-Status     : Learning
-             Building
-             Breaking
-             Securing
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `> ./about_me.py`
-
-```python
-class NishenMadava:
-    def __init__(self):
-        self.name = "Nishen Madava"
-        self.university = "SLTC"
-
-        self.roles = [
-            "Cybersecurity Enthusiast",
-            "Ethical Hacker",
-            "Web Developer",
-            "Designer",
-        ]
-
-        self.languages = ["Python", "Java", "JavaScript", "HTML", "CSS", "SQL"]
-        self.security_tools = ["Kali Linux", "Wireshark", "Burp Suite", "Nmap"]
-        self.interests = ["Cybersecurity", "Web Development", "Ethical Hacking", "CTF / KoTH"]
-        self.currently_learning = "Cybersecurity"
-
-    def mission(self):
-        return "Learn. Build. Hack ethically. Secure responsibly."
-
-
-nishen = NishenMadava()
-print(nishen.mission())
-```
-
----
-
-## `> cat skills.txt`
-
-<div align="center">
-
-### Programming & Development
-
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css,mysql&theme=dark" alt="Python, Java, JavaScript, HTML, CSS, MySQL skill icons" />
-
-<br/><br/>
-
-### Cybersecurity & Tools
-
-<img src="https://skillicons.dev/icons?i=kali,linux,vscode,git,github&theme=dark" alt="Kali Linux, Linux, VS Code, Git, GitHub skill icons" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark badge" />
-<img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite badge" />
-<img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge&logo=linux&logoColor=white" alt="Nmap badge" />
-<img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux badge" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nishen%20Madava-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishen-madava)
+[![Portfolio](https://img.shields.io/badge/Portfolio-VOID%20INJECTOR-00A86B?style=flat-square&logo=netlify&logoColor=white)](https://voidinjector-portfolio.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Nishenmadawa15@gmail.com)
 
 </div>
 
----
+<br/>
 
-## `> systemctl status nishen`
+## About Me
 
-```text
-● nishen.service - Nishen Madava Development Environment
-     Loaded: loaded
-     Active: active (running)
+- Cybersecurity enthusiast studying at SLTC, focused on ethical hacking and web application security.
+- Currently learning cybersecurity fundamentals and penetration-testing methodology.
+- Active in CTF / King of the Hill (KoTH) challenges to sharpen offensive-security skills.
+- Also design and build secure, modern web applications end-to-end.
 
-     University .............. SLTC
-     Primary Focus ............ Cybersecurity
-     Ethical Hacking .......... ACTIVE
-     Web Development ........... ACTIVE
-     Design ..................... ACTIVE
-     CTF / KoTH .................. ACTIVE
-     Learning Mode ............... ALWAYS ON
+## Tech Stack
 
-     Current Mission:
-     → Improve cybersecurity knowledge
-     → Practice ethical hacking
-     → Improve penetration-testing methodology
-     → Build secure web applications
-     → Participate in CTF / KoTH challenges
-     → Learn new technologies
-```
+**Programming**
 
----
+<img src="https://skillicons.dev/icons?i=py,java,js,html,css,mysql&theme=dark" alt="Python, Java, JavaScript, HTML, CSS, SQL" />
 
-## `> ./github-stats --user nishenmadawa15-collab`
+**Security & Tools**
 
-> **Status:** temporarily unavailable — the public `github-readme-stats.vercel.app` instance is currently returning `DEPLOYMENT_PAUSED` upstream (verified, not a Markdown error). Removed to avoid showing a broken image; see the final report for how to restore it.
+<img src="https://skillicons.dev/icons?i=kali,linux,git,github,vscode&theme=dark" alt="Kali Linux, Linux, Git, GitHub, VS Code" />
+<br/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
+<img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+<img src="https://img.shields.io/badge/Nmap-004170?style=flat-square&logo=nmap&logoColor=white" alt="Nmap" />
 
----
+## Featured Projects
 
-## `> ./streak.sh`
+| Project | Description | Tech | Link |
+|---|---|---|---|
+| **VOID INJECTOR** | Cybersecurity-themed personal portfolio showcasing security projects and skills | React · Vite | [Repo](https://github.com/nishenmadawa15-collab/voidinjector-portfolio) |
+| **Cybersecurity Portfolio** | Static portfolio site highlighting penetration-testing projects and ethical-hacking skills | HTML · CSS · JS | [Repo](https://github.com/nishenmadawa15-collab/nishenmadava.github.io) |
+| **BG Remover** | Browser-based tool that removes image backgrounds instantly, client-side | HTML · JavaScript | [Repo](https://github.com/nishenmadawa15-collab/bg-remover) |
+
+## GitHub Activity
 
 <div align="center">
 
@@ -142,67 +53,12 @@ print(nishen.mission())
 
 </div>
 
----
-
-## `> cat current_objectives.txt`
-
-```text
-[01] Improve cybersecurity fundamentals
-[02] Practice ethical hacking techniques
-[03] Improve penetration-testing methodology
-[04] Build secure web applications
-[05] Participate in CTF / KoTH challenges
-[06] Explore vulnerabilities and defensive techniques
-[07] Create professional cybersecurity projects
-[08] Keep learning every day
-```
-
----
-
-## `> ./connect --nishen`
+## Contact
 
 <div align="center">
 
-<a href="mailto:Nishenmadawa15@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nishen Madava" />
-</a>
-<a href="https://www.linkedin.com/in/nishen-madava">
-  <img src="https://img.shields.io/badge/LinkedIn-Nishen%20Madava-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Nishen Madava on LinkedIn" />
-</a>
-<a href="https://voidinjector-portfolio.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-VOID%20INJECTOR-00FF88?style=for-the-badge&logo=netlify&logoColor=black" alt="Nishen Madava's portfolio website" />
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=nishenmadawa15-collab&label=PROFILE+VIEWS&color=00ff88&style=for-the-badge" alt="Profile view counter for nishenmadawa15-collab" />
-
-</div>
-
----
-
-## `> sudo ./final_message.sh`
-
-```text
-┌──(nishen㉿cyber)-[~]
-└─$ echo "Security is not a product. It's a process."
-
-     [+] Learn continuously
-     [+] Hack ethically
-     [+] Build creatively
-     [+] Secure responsibly
-     [+] Never stop exploring
-
-┌──(nishen㉿cyber)-[~]
-└─$ _
-```
-
-<div align="center">
-
-### `⚡ Cybersecurity • Code • Creativity ⚡`
-
-**© Nishen Madava**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishen-madava)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00A86B?style=flat-square&logo=netlify&logoColor=white)](https://voidinjector-portfolio.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Nishenmadawa15@gmail.com)
 
 </div>
