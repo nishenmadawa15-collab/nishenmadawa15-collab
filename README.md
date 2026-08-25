@@ -14,9 +14,9 @@
 
 <table>
 <tr>
-<td width="240" align="center" valign="top">
+<td width="260" align="center" valign="top">
 
-<img src="./nishen-profile.jpeg" width="230" alt="Nishen Madava, Cybersecurity Enthusiast and Web Developer, profile photo" />
+<img src="./assets/nishen-ascii.svg" width="250" alt="ASCII / terminal-art style portrait of Nishen Madava, generated from his profile photo" />
 
 </td>
 <td valign="top">
