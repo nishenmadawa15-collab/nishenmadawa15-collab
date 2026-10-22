@@ -58,12 +58,4 @@ open_to:   internships · freelance web projects · CTF teams
 - 🧪 Practising web exploitation & blue-team detection in CTF / KoTH labs
 - 🌱 Learning: Active Directory attacks, detection engineering, cloud security
 
-### GitHub Activity
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=nishenmadawa15-collab&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FF88&fire=00FF88&currStreakLabel=00FF88" alt="GitHub contribution streak" />
-
-</div>
-
 <div align="center"><sub>All security testing is done only in authorised labs, CTFs or systems I own.</sub></div>
