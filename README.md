@@ -47,12 +47,10 @@ open_to:   internships · freelance web projects · CTF teams
 **Security & Tools**
 
 <img src="https://skillicons.dev/icons?i=kali,linux,bash,docker,git,github,vscode&theme=dark" alt="Kali Linux, Linux, Bash, Docker, Git, GitHub, VS Code" />
-<br/>
-<img src="https://img.shields.io/badge/Wazuh-3B82F6?style=flat-square&logoColor=white" alt="Wazuh" />
-<img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" />
-<img src="https://img.shields.io/badge/Nmap-004170?style=flat-square&logo=nmap&logoColor=white" alt="Nmap" />
-<img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP Top 10" />
+
+<p>
+<img src="https://img.shields.io/badge/Wazuh-3B82F6?style=flat-square&logoColor=white" alt="Wazuh" /> <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" /> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" /> <img src="https://img.shields.io/badge/Nmap-004170?style=flat-square&logo=nmap&logoColor=white" alt="Nmap" /> <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP Top 10" />
+</p>
 
 ### Currently
 
