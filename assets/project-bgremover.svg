@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="404" height="196" viewBox="0 0 404 196" role="img">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+.s{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}
+@keyframes p{0%,100%{opacity:1}50%{opacity:.25}} .p{animation:p 2.4s ease-in-out infinite}
+</style>
+<rect x="0.5" y="0.5" width="403" height="195" rx="8" fill="#0b0f14" stroke="#1f2a37"/>
+<text x="16" y="24" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >Frame 06</text>
+<text x="86" y="24" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >· 10 bytes on wire</text>
+<rect x="333.2" y="10" width="54.8" height="20" rx="10" fill="#0f1620" stroke="#1f2a37"/>
+<circle cx="344.2" cy="20" r="3" fill="#56e0c0" class="p"/>
+<text x="352.2" y="24" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >LIVE</text>
+<path d="M0.5 38.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="66" class="s" font-size="20" fill="#e6edf3" font-weight="700" text-anchor="start" >BG Remover</text>
+<text x="16" y="90" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >Client-side image background remover that runs entirely in</text>
+<text x="16" y="109" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >the browser.</text>
+<rect x="16" y="128" width="88.0" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="24" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >JavaScript</text>
+<rect x="110.0" y="128" width="95.2" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="118.0" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >client-side</text>
+<rect x="211.2" y="128" width="102.4" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="219.2" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >GitHub Pages</text>
+<path d="M0.5 166.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="185" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >42 47 20 52 …</text>
+<text x="388" y="185" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="end" >github → bg-remover · live demo</text>
+</svg>

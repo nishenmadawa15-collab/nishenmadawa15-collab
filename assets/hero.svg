@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="300" viewBox="0 0 830 300" role="img">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+.s{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}
+
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}
+@keyframes sweep{0%{transform:translateY(0)}24%{transform:translateY(0)}25%{transform:translateY(22px)}49%{transform:translateY(22px)}50%{transform:translateY(44px)}74%{transform:translateY(44px)}75%{transform:translateY(66px)}99%{transform:translateY(66px)}100%{transform:translateY(0)}}
+@keyframes flicker{0%,100%{opacity:.35}50%{opacity:.9}}
+@keyframes scan{0%{transform:translateX(-120px)}100%{transform:translateX(830px)}}
+.live{animation:blink 1.6s ease-in-out infinite}
+.sel{animation:sweep 8s linear infinite}
+.hx1{animation:flicker 3.1s ease-in-out infinite}
+.hx2{animation:flicker 2.3s ease-in-out .7s infinite}
+.hx3{animation:flicker 3.7s ease-in-out 1.4s infinite}
+.scan{animation:scan 7s linear infinite}
+
+</style>
+<rect x="0.5" y="0.5" width="829" height="299" rx="10" fill="#0b0f14" stroke="#1f2a37"/>
+<path d="M0.5 36.5 H829.5" stroke="#1f2a37"/>
+<rect x="14" y="9" width="178" height="27" rx="6" fill="#0f1620" stroke="#1f2a37"/>
+<path d="M15 36.5 H191" stroke="#0f1620" stroke-width="2"/>
+<text x="28" y="27" class="m" font-size="13" fill="#e6edf3" font-weight="normal" text-anchor="start" >voidinjector.pcapng</text>
+<text x="206" y="27" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >capture  ·  live</text>
+<circle cx="634" cy="22" r="4" fill="#56e0c0" class="live"/>
+<text x="644" y="27" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >capturing</text>
+<text x="814" y="27" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="end" >UTC+5:30</text>
+<text x="28" y="94" class="s" font-size="42" fill="#e6edf3" font-weight="700" text-anchor="start" letter-spacing="-1">Nishen Madava</text>
+<text x="30" y="120" class="m" font-size="13" fill="#56e0c0" font-weight="normal" text-anchor="start" letter-spacing="4">VOID INJECTOR</text>
+<text x="28" y="143" class="s" font-size="14" fill="#9aa7b8" font-weight="normal" text-anchor="start" >BSc Cybersecurity undergraduate</text>
+<text x="28" y="162" class="s" font-size="14" fill="#9aa7b8" font-weight="normal" text-anchor="start" >SLTC Research University  ·  Sri Lanka</text>
+<rect x="498" y="56" width="316" height="100" rx="8" fill="#0f1620" stroke="#1f2a37"/>
+<text x="512" y="80" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >0000</text>
+<text x="558" y="80" class="m hx1" font-size="12" fill="#56e0c0">56 4f 49 44 20 49 4e 4a</text>
+<text x="750" y="80" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >VOID INJ</text>
+<text x="512" y="102" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >0008</text>
+<text x="558" y="102" class="m hx2" font-size="12" fill="#56e0c0">45 43 54 4f 52 0a 73 6f</text>
+<text x="750" y="102" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >ECTOR.so</text>
+<text x="512" y="124" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >0010</text>
+<text x="558" y="124" class="m hx3" font-size="12" fill="#56e0c0">63 20 c2 b7 20 77 65 62</text>
+<text x="750" y="124" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >c . web</text>
+<text x="512" y="146" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >0018</text>
+<text x="558" y="146" class="m hx1" font-size="12" fill="#56e0c0">20 c2 b7 20 63 74 66 0a</text>
+<text x="750" y="146" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" > . ctf.</text>
+<rect x="0" y="56" width="120" height="100" fill="url(#g)" class="scan" opacity=".5"/>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#56e0c0" stop-opacity="0"/><stop offset=".5" stop-color="#56e0c0" stop-opacity=".12"/><stop offset="1" stop-color="#56e0c0" stop-opacity="0"/></linearGradient></defs>
+<path d="M0.5 172 H829.5" stroke="#1f2a37"/>
+<text x="28" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >No.</text>
+<text x="60" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >Time</text>
+<text x="124" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >Source</text>
+<text x="322" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >Destination</text>
+<text x="474" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >Proto</text>
+<text x="540" y="190" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >Info</text>
+<rect x="12" y="198" width="806" height="22" rx="4" fill="#56e0c0" opacity=".10" class="sel"/>
+<text x="28" y="214" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >1</text>
+<text x="60" y="214" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >0.0000</text>
+<text x="124" y="214" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >SLTC Research University</text>
+<text x="322" y="214" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Nishen Madava</text>
+<text x="474" y="214" class="m" font-size="12" fill="#56e0c0" font-weight="600" text-anchor="start" >EDU</text>
+<text x="540" y="214" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >BSc Cybersecurity · undergraduate</text>
+<text x="28" y="236" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >2</text>
+<text x="60" y="236" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >0.0004</text>
+<text x="124" y="236" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Wazuh agents</text>
+<text x="322" y="236" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >SOC analyst</text>
+<text x="474" y="236" class="m" font-size="12" fill="#56e0c0" font-weight="600" text-anchor="start" >ALERT</text>
+<text x="540" y="236" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >log collection · detection practice</text>
+<text x="28" y="258" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >3</text>
+<text x="60" y="258" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >0.0013</text>
+<text x="124" y="258" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >web application</text>
+<text x="322" y="258" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Burp Suite</text>
+<text x="474" y="258" class="m" font-size="12" fill="#56e0c0" font-weight="600" text-anchor="start" >HTTP</text>
+<text x="540" y="258" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >web app security · pentesting</text>
+<text x="28" y="280" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >4</text>
+<text x="60" y="280" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >0.0020</text>
+<text x="124" y="280" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >CTF / KoTH</text>
+<text x="322" y="280" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >VOID INJECTOR</text>
+<text x="474" y="280" class="m" font-size="12" fill="#56e0c0" font-weight="600" text-anchor="start" >FLAG</text>
+<text x="540" y="280" class="m" font-size="12" fill="#9aa7b8" font-weight="normal" text-anchor="start" >capture the flag · king of the hill</text>
+</svg>

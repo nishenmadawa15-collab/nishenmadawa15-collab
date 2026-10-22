@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="404" height="196" viewBox="0 0 404 196" role="img">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+.s{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}
+@keyframes p{0%,100%{opacity:1}50%{opacity:.25}} .p{animation:p 2.4s ease-in-out infinite}
+</style>
+<rect x="0.5" y="0.5" width="403" height="195" rx="8" fill="#0b0f14" stroke="#1f2a37"/>
+<text x="16" y="24" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >Frame 02</text>
+<text x="86" y="24" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >· 8 bytes on wire</text>
+<rect x="246.8" y="10" width="141.2" height="20" rx="10" fill="#0f1620" stroke="#1f2a37"/>
+<circle cx="257.8" cy="20" r="3" fill="#f2b85a" class="p"/>
+<text x="265.8" y="24" class="m" font-size="12" fill="#f2b85a" font-weight="normal" text-anchor="start" >PRIVATE · IN DEV</text>
+<path d="M0.5 38.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="66" class="s" font-size="20" fill="#e6edf3" font-weight="700" text-anchor="start" >FLAGVORA</text>
+<text x="16" y="90" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >CTF platform on the GZCTF open core with custom patches,</text>
+<text x="16" y="109" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >security reviews and admin 2FA hardening.</text>
+<rect x="16" y="128" width="52.0" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="24" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >GZCTF</text>
+<rect x="74.0" y="128" width="37.6" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="82.0" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >CTF</text>
+<rect x="117.6" y="128" width="37.6" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="125.6" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >2FA</text>
+<rect x="161.2" y="128" width="124.0" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="169.2" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >security review</text>
+<path d="M0.5 166.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="185" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >46 4c 41 47 56 4f 52 41</text>
+<text x="388" y="185" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="end" >private repository</text>
+</svg>
