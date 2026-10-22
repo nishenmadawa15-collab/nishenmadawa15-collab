@@ -1,67 +1,52 @@
-<div align="center">
+<!-- voidinjector.pcapng — a packet-capture of Nishen Madava. All visuals are hand-made SVGs in ./assets -->
 
-<img src="./assets/nishen-ascii.svg" width="190" alt="ASCII-style portrait of Nishen Madava" />
+<a href="https://voidinjector-portfolio.netlify.app/"><img src="./assets/hero.svg" width="100%" alt="voidinjector.pcapng — Nishen Madava, VOID INJECTOR. BSc Cybersecurity undergraduate, SLTC Research University, Sri Lanka. Packet list: SOC monitoring, web application security, penetration testing, CTF / KoTH." /></a>
 
-# Nishen Madava
+<table>
+  <tr>
+    <td width="200" align="center" valign="top">
+      <img src="./assets/nishen-ascii.svg" width="190" alt="ASCII-style portrait of Nishen Madava" />
+    </td>
+    <td valign="top">
+      <img src="./assets/about.svg" width="100%" alt="Frame 1 details — studying BSc Cybersecurity at SLTC Research University, Sri Lanka; focus on SOC monitoring, web application security, penetration testing and CTF / KoTH; also builds full-stack web apps and browser extensions; based in Sri Lanka (UTC+5:30); open to internships, freelance web projects and CTF teams." />
+    </td>
+  </tr>
+</table>
 
-<a href="https://github.com/nishenmadawa15-collab"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=520&lines=Cybersecurity+Undergraduate+%40+SLTC;SOC+%7C+Web+App+Security+%7C+CTF+Player;Building+FLAGVORA+-+a+CTF+platform;Full-stack+Web+Developer" alt="Typing intro" /></a>
+<img src="./assets/section-projects.svg" width="100%" alt="[ 02 ] Projects — 7 frames, click a frame to open the repo" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nishen%20Madava-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishen-madava)
-[![Portfolio](https://img.shields.io/badge/Portfolio-VOID%20INJECTOR-00A86B?style=flat-square&logo=netlify&logoColor=white)](https://voidinjector-portfolio.netlify.app/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nishenmadawa15@gmail.com)
-![Location](https://img.shields.io/badge/Sri%20Lanka-UTC%2B5%3A30-222?style=flat-square)
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/SOCWatch"><img src="./assets/project-socwatch.svg" width="100%" alt="SOCWatch — Wazuh-based SOC monitoring lab: log collection, alerting and detection practice. CCA internship project." /></a></td>
+    <td width="50%" valign="top"><img src="./assets/project-flagvora.svg" width="100%" alt="FLAGVORA — CTF platform on the GZCTF open core with custom patches, security reviews and admin 2FA hardening. Private, in development." /></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/nexskill"><img src="./assets/project-nexskill.svg" width="100%" alt="NexSkill — skill-based internship matching platform. SLTC team project built on Supabase." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/eliya"><img src="./assets/project-eliya.svg" width="100%" alt="Eliya — Gemma runs in the browser, picks the best hour and plans a short phone-free walk in Sri Lanka." /></a></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/voidinjector-portfolio"><img src="./assets/project-portfolio.svg" width="100%" alt="VOID INJECTOR portfolio — personal site built with React and Vite, deployed on Netlify." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/bg-remover"><img src="./assets/project-bgremover.svg" width="100%" alt="BG Remover — client-side image background remover that runs entirely in the browser." /></a></td>
+  </tr>
+</table>
 
-</div>
-
----
-
-### `$ whoami`
-
-```yaml
-name:      Nishen Madava
-studying:  BSc Cybersecurity — SLTC Research University, Sri Lanka
-focus:     [SOC monitoring, web application security, penetration testing, CTF]
-building:  FLAGVORA — a CTF platform built on GZCTF
-also:      full-stack web apps, browser extensions, client websites
-open_to:   internships · freelance web projects · CTF teams
-```
-
-### Featured Projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| 🛡️ **[SOCWatch](https://github.com/nishenmadawa15-collab/SOCWatch)** | Wazuh-based SOC monitoring lab — log collection, alerting and detection practice (CCA internship project) | Wazuh · JavaScript |
-| 🚩 **FLAGVORA** *(private, in development)* | CTF platform on GZCTF open core with custom patches, security reviews and 2FA admin hardening | C# · Python |
-| 🎓 **[NexSkill](https://github.com/nishenmadawa15-collab/nexskill)** | Skill-based internship matching platform (SLTC team project) | JavaScript |
-| 🌿 **[Eliya](https://github.com/nishenmadawa15-collab/eliya)** · [live](https://nishenmadawa15-collab.github.io/eliya/) | Gemma runs in the browser, picks the best hour and plans a short phone-free walk in Sri Lanka | HTML · On-device AI |
-| 💀 **[VOID INJECTOR](https://github.com/nishenmadawa15-collab/voidinjector-portfolio)** · [live](https://voidinjector-portfolio.netlify.app/) | Cybersecurity-themed personal portfolio | React · Vite |
-| 🖼️ **[BG Remover](https://github.com/nishenmadawa15-collab/bg-remover)** | Client-side image background remover — images never leave the browser | HTML · JS |
-| 🧩 **Browser extensions** | AdBlock Pro, Gramo, Window Resizer, YouTube Timestamp Saver | JavaScript |
-
-### Tech Stack
-
-**Languages & Web**
-
-<img src="https://skillicons.dev/icons?i=py,js,ts,java,html,css,react,vite,astro,mysql&theme=dark" alt="Python, JavaScript, TypeScript, Java, HTML, CSS, React, Vite, Astro, MySQL" />
-
-**Security & Tools**
-
-<img src="https://skillicons.dev/icons?i=kali,linux,bash,docker,git,github,vscode&theme=dark" alt="Kali Linux, Linux, Bash, Docker, Git, GitHub, VS Code" />
-
-<p>
-<img src="https://img.shields.io/badge/Wazuh-3B82F6?style=flat-square&logoColor=white" alt="Wazuh" /> <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" /> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" /> <img src="https://img.shields.io/badge/Nmap-004170?style=flat-square&logo=nmap&logoColor=white" alt="Nmap" /> <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP Top 10" />
+<p align="center">
+  <sub>live demos &nbsp;·&nbsp; <a href="https://nishenmadawa15-collab.github.io/eliya/">Eliya</a> &nbsp;·&nbsp; <a href="https://voidinjector-portfolio.netlify.app/">VOID INJECTOR portfolio</a> &nbsp;·&nbsp; <a href="https://nishenmadawa15-collab.github.io/bg-remover/">BG Remover</a></sub>
 </p>
 
-### CTF Competitions
+<img src="./assets/extensions.svg" width="100%" alt="Frame 07 — Browser extensions: AdBlock Pro, Gramo, Window Resizer, YouTube Timestamp Saver" />
 
-- 🏁 University of Ruhuna CTF
-- 🏁 IIT CTF
-- 🏁 NSBM Green University CTF
+<img src="./assets/section-stack.svg" width="100%" alt="[ 03 ] Stack — protocol hierarchy" />
 
-### Currently
+<img src="./assets/stack.svg" width="100%" alt="Protocol hierarchy — security: Kali Linux, Linux, Bash, Git, Wazuh, Burp Suite, Wireshark, Nmap, OWASP Top 10. Languages: Python, JavaScript, TypeScript, Java, HTML, CSS. Web and data: React, Vite, Astro, MySQL, Supabase." />
 
-- 🔭 Shipping FLAGVORA to launch readiness
-- 🧪 Practising web exploitation & blue-team detection in CTF / KoTH labs
-- 🌱 Learning: Active Directory attacks, detection engineering, cloud security
+<img src="./assets/section-contact.svg" width="100%" alt="[ 04 ] Contact — follow stream" />
 
-<div align="center"><sub>All security testing is done only in authorised labs, CTFs or systems I own.</sub></div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/nishen-madava"><img src="./assets/btn-linkedin.svg" width="200" alt="LinkedIn — nishen-madava" /></a>
+  <a href="https://voidinjector-portfolio.netlify.app/"><img src="./assets/btn-portfolio.svg" width="200" alt="Portfolio — voidinjector-portfolio.netlify.app" /></a>
+  <a href="mailto:nishenmadawa15@gmail.com"><img src="./assets/btn-email.svg" width="200" alt="Email — nishenmadawa15@gmail.com" /></a>
+  <a href="https://github.com/nishenmadawa15-collab?tab=repositories"><img src="./assets/btn-github.svg" width="200" alt="GitHub — nishenmadawa15-collab repositories" /></a>
+</p>
+
+<img src="./assets/footer.svg" width="100%" alt="End of capture — 0 packets dropped. Security testing is done only in authorised labs, CTFs, or on systems I own." />
