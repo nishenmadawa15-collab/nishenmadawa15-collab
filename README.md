@@ -4,7 +4,7 @@
 
 <img src="./assets/about.svg" width="100%" alt="Frame 1 details — studying BSc Cybersecurity at SLTC Research University, Sri Lanka; focus on SOC monitoring, web application security, penetration testing and CTF / KoTH; also builds full-stack web apps and browser extensions; based in Sri Lanka (UTC+5:30); open to internships, freelance web projects and CTF teams." />
 
-<img src="./assets/section-projects.svg" width="100%" alt="[ 02 ] Projects — 6 frames, click a frame to open the repo" />
+<img src="./assets/section-projects.svg" width="100%" alt="[ 02 ] Projects — 8 frames, click a frame to open the repo" />
 
 <table>
   <tr>
@@ -19,11 +19,18 @@
 
 <a href="https://github.com/nishenmadawa15-collab/bg-remover"><img src="./assets/project-bgremover.svg" width="100%" alt="BG Remover — client-side image background remover that runs entirely in the browser." /></a>
 
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/homefixwise"><img src="./assets/project-homefixwise.svg" width="100%" alt="HomeFixWise — SEO-focused static home-repair guide site built with Astro, deployed on Cloudflare Pages." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/nishenmadawa15-collab/secheaders-agent"><img src="./assets/project-secheaders.svg" width="100%" alt="SecHeaders Agent — AI agent built with the Strands SDK and Amazon Bedrock that scans a site's HTTP security headers and grades it A–F." /></a></td>
+  </tr>
+</table>
+
 <p align="center">
   <sub>live demos &nbsp;·&nbsp; <a href="https://voidinjector-portfolio.netlify.app/">VOID INJECTOR portfolio</a> &nbsp;·&nbsp; <a href="https://nishenmadawa15-collab.github.io/bg-remover/">BG Remover</a></sub>
 </p>
 
-<img src="./assets/extensions.svg" width="100%" alt="Frame 06 — Browser extensions: AdBlock Pro, Gramo, Window Resizer, YouTube Timestamp Saver" />
+<img src="./assets/extensions.svg" width="100%" alt="Frame 08 — Browser extensions: AdBlock Pro, Gramo, Window Resizer, YouTube Timestamp Saver" />
 
 <img src="./assets/section-stack.svg" width="100%" alt="[ 03 ] Stack — protocol hierarchy" />
 
