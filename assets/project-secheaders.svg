@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="404" height="196" viewBox="0 0 404 196" role="img">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;}
+.s{font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}
+@keyframes p{0%,100%{opacity:1}50%{opacity:.25}} .p{animation:p 2.4s ease-in-out infinite}
+</style>
+<rect x="0.5" y="0.5" width="403" height="195" rx="8" fill="#0b0f14" stroke="#1f2a37"/>
+<text x="16" y="24" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >Frame 07</text>
+<text x="86" y="24" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >· 16 bytes on wire</text>
+<rect x="318.8" y="10" width="69.2" height="20" rx="10" fill="#0f1620" stroke="#1f2a37"/>
+<circle cx="329.8" cy="20" r="3" fill="#56e0c0" class="p"/>
+<text x="337.8" y="24" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="start" >PUBLIC</text>
+<path d="M0.5 38.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="66" class="s" font-size="20" fill="#e6edf3" font-weight="700" text-anchor="start" >SecHeaders Agent</text>
+<text x="16" y="90" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >AI agent (Strands SDK + Amazon Bedrock) that scans a site's</text>
+<text x="16" y="109" class="s" font-size="13" fill="#9aa7b8" font-weight="normal" text-anchor="start" >HTTP security headers and grades it A–F.</text>
+<rect x="16" y="128" width="59.2" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="24" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Python</text>
+<rect x="81.2" y="128" width="66.4" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="89.2" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Bedrock</text>
+<rect x="153.6" y="128" width="95.2" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="161.6" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >Strands SDK</text>
+<rect x="254.8" y="128" width="52.0" height="20" rx="4" fill="#0f1620" stroke="#1f2a37"/>
+<text x="262.8" y="142" class="m" font-size="12" fill="#e6edf3" font-weight="normal" text-anchor="start" >OWASP</text>
+<path d="M0.5 166.5 H403.5" stroke="#1f2a37"/>
+<text x="16" y="185" class="m" font-size="12" fill="#5a6878" font-weight="normal" text-anchor="start" >53 65 63 48 65 61 64 65</text>
+<text x="388" y="185" class="m" font-size="12" fill="#56e0c0" font-weight="normal" text-anchor="end" >github → secheaders-agent</text>
+</svg>
